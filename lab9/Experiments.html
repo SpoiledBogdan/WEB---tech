@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HTML5</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+	<button id = "show">Показать</button>
+	<button id = "hide">Скрыть</button>
+
+	<h1 class="MsoNormal">Заголовок 1 нечет</h1>
+	<h2 class="MsoNormal">Заголовок 2 чет</h2>
+	<p class="MsoNormal">Текст нечет</p>
+	<p class="MsoNormal">Текст чет</p>
+	<h3 class="MsoNormal">Заголовок 3 нечет</h3>
+	<h4 class="MsoNormal">Заголовок 4 чет</h4>
+	
+
+	<script>
+		$(document).ready(function () {
+			$("#hide").click(function() {
+				$(".MsoNormal:odd").hide();
+			});
+
+			$("#show").click(function() {
+				$(".MsoNormal:odd").show();
+			});
+		});
+	</script>
+</body>
+</html>

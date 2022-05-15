@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HTML5</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#butt1").click(function() {
+				$("#par3").animate({right: '-100pt'});
+                $("#par5").animate({right: '-100pt'});
+			});
+
+            $("#img1").click(function() {
+                $("#1").animate({height: '100pt'});
+            });
+
+            $("#img2").click(function() {
+                $("#2").animate({height: '100pt'});
+            });
+
+            $("#img3").click(function() {
+                $("#3").animate({height: '100pt'});
+            });
+
+            $("#img4").click(function() {
+                $("#4").animate({height: '100pt'});
+            });
+
+            $("#img5").click(function() {
+                $("#5").animate({height: '100pt'});
+            });
+		});
+	</script>
+</head>
+
+<body>
+
+	<button id = "butt1">Кнопка 1</button>
+
+    <p id="par1">Параграф 1</p>
+    <div id="1" style="position: relative;"></div>
+    <img id="img1" src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/72/fantastic-seascape-with-ripples-1140x684.jpg" 
+	width="200" height="200">
+
+    <p id="par2">Параграф 2</p>
+    <div id="2" style="position: relative;"></div>
+    <img id="img2" src="https://cdn.pixabay.com/photo/2019/11/07/08/12/sea-4608198_960_720.jpg" width="200" height="200">
+
+    <p style="position: relative;" id="par3">Параграф 3</p>
+    <div id="3" style="position: relative;"></div>
+    <img id="img3" src="https://upload.wikimedia.org/wikipedia/commons/0/09/POL_2007_08_04_Jaroslawiec_zachodniopomorskie_02.JPG" width="200" height="200">
+
+    <p id="par4">Параграф 4</p>
+    <div id="4" style="position: relative;"></div>
+    <img id="img4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/US_Navy_071116-N-6106R-097_Nineteen_American_and_Japan_Maritime_Self-Defense_Forces_%28JMSDF%29_ships_transit_together_at_the_end_of_ANNUALEX_19G%2C_the_maritime_component_of_the_U.S.-Japan_exercise_Keen_Sword_%2708_for_a_group_photo.jpg/200px-thumbnail.jpg" width="200" height="200">
+
+    <p style="position: relative;" id="par5">Параграф 5</p>
+    <div id="5" style="position: relative;"></div>
+    <img id="img5" src="https://static8.depositphotos.com/1370441/848/i/600/depositphotos_8486144-stock-photo-beach-and-tropical-sea.jpg" width="200" height="200">
+
+</body>
+</html>
