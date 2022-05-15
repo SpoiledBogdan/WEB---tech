@@ -1,0 +1,103 @@
+html{
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	text-align: justify;
+	background-color: #fcf9f5;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.g {
+	margin: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: burlywood;
+	font-size: 25px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #8c6027;
+	font-size: 25px;
+	transition: 1s;
+	transform: scale(1.3);
+}
+
+h2{
+	margin-left: 100px;
+}
+
+h3{
+	margin-left: 100px;
+}
+
+ul{
+	margin-left: 100px;
+}
+
+ol{
+	margin-left: 100px;
+}
+
+img{
+	width: 60%;
+	/*margin-left: 100px;*/
+	border-radius: 30px;
+}
+
+strong{
+	color: #bb8033;
+}
+
+#shiftedit{
+	width: 40%;
+}
+
+#shiftedit{
+	width: 20%;
+}
+
+#header{
+	margin-top: 10px;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 60px;
+	background-color: #e6caa5;
+	border-radius: 30px;
+}
+
+#upper{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	right: 7px;
+	position: fixed;
+	top: 0px;
+	background-color:#171006;
+	color:#fcf9f5;
+}
+
+@keyframes stretching {
+	0%{
+		width: 50%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+/*Анимация увеличения картинок при наведении*/
+img {
+	transition: 1s; /* Время эффекта */
+}
+img:hover {
+	transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+
